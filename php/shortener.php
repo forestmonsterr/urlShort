@@ -3,7 +3,7 @@ class Shortener {
     protected $db;
 
     public function _construct() {
-        $this->db = new MySqli('localhost','root','','website');
+        $this->db = new MySqli('localhost','a0768483_admin','admin','a0768483_website');
     }
 
     public function generateCode($num) {
